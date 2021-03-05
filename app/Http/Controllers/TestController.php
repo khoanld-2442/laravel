@@ -12,4 +12,9 @@ class TestController extends Controller
         $user = new HomeController();
         $user->getAll();
     }
+
+    public function getall() 
+    {
+        return 1;
+    }
 }
