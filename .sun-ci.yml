@@ -1,0 +1,8 @@
+stages:
+  - test
+jobs:
+  - name: test
+    stage: test
+    image: sunasteriskrnd/php-workspace:7.4
+    script:
+      - echo hehe
